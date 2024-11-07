@@ -39,7 +39,7 @@ export function LoginForm() {
     },
   }) 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
-    const response = await signIn("Credentials", {
+    const response = await signIn("credentials", {
       email: values.email,  
       password: values.password,  
       redirect: false
