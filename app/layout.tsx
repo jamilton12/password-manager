@@ -11,6 +11,7 @@ const inter = Poppins({
 export const metadata: Metadata = {
   title: "TarretPassword",
   description: "Creating a password manager",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
