@@ -57,6 +57,7 @@ export function  FormProfile(props: FormProfileProps) {
       setShowUploadPhoto(false)
       setPhotoUploaded(false)
       
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast({
         title: "Something went wrong",
