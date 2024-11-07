@@ -26,6 +26,7 @@ export const generateRandomUsername = (length = 8) => {
     "Falcon",
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const randomItems = (array: any) => 
     array[Math.floor(Math.random() * array.length)]
 
